@@ -57,7 +57,15 @@ footer{
     text-decoration: none;
 }
 
-
+h2 img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;     
+    object-position: center;
+    border-radius: 10px;    
+    margin-right: 10px;
+    vertical-align: middle;
+}
 
 /*menü*/
 .header {
