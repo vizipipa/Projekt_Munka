@@ -1,0 +1,81 @@
+Menü html -----------
+<header class="header">
+        <div class="tartalom">
+            <nav id="fomenu">
+                <ul class="menu">
+                    <li><a href="http://" target="_blank">Bemutatás</a></li>
+                    <li><a href="palyak.html">Pályák</a></li>
+                    <li><a href="http://" target="_blank">E-sport</a></li>
+                    <li><a href="http://" target="_blank">Előzmények</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    ----------------------
+
+    menü css --------------
+    /*menü*/
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.45);
+    height: 75px;
+    background-position: center center;
+
+}
+
+#fomenu ul {
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+#fomenu li {
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    height: 100%;
+    padding: 0.8em 1.6em;
+}
+
+#fomenu li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 25%;
+    height: 50%;
+    width: 2.5px;
+    background-color: #fff;
+    opacity: 0.6;
+}
+
+.menu a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    font-weight: 500;
+    font-size: clamp(19px, 1.8vw, 24px);
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    padding: 2px 0;
+    transition: color .2s ease;
+}
+
+.menu a:hover {
+    color: rgb(61, 148, 186);
+    text-decoration: underline;
+}
+
+/* menü */
+
+-------------------
+háttér stb 
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #0a0f1f, #122346, #0a0f1f);
+    color: #e5e7eb;
+    font-size: large;
+}
