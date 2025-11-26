@@ -1,11 +1,13 @@
 body {
-    background-image: url(../img/palya/dust2-map.jpeg);
+    background: radial-gradient(circle at top, #1f2937 0, #020617 55%);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: gray;
     background-attachment: fixed;
 }
-
+#hatter{
+    background-color: rgba(255, 255, 255, 0.40)
+}
 /*menü*/
 .header {
     position: relative;
