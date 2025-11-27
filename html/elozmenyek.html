@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elozmenyek</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="../css/elozmenyek.css">
+    <style>
+        .cs-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 40px;
+            margin-bottom: 60px;
+            color: #e5e7eb;
+        }
+        .cs-table th, .cs-table td {
+            border: 1px solid #555;
+            padding: 15px;
+            vertical-align: top;
+        }
+        .cs-table th {
+            background-color: rgba(20, 30, 60, 0.8);
+            text-align: center;
+        }
+        .cs-table td {
+            background-color: rgba(10, 20, 35, 0.6);
+        }
+        .cs-table .reason {
+            background-color: rgba(20, 50, 90, 0.7);
+            font-weight: 500;
+        }
+        .cs-table ul {
+            padding-left: 20px;
+            margin: 0;
+        }
+        .cs-table li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="tartalom">
+            <nav id="fomenu">
+                <ul class="menu">
+                    <li><a href="index.html" target="_blank">Bemutatás</a></li>
+                    <li><a href="palyak.html" target="_blank">Pályák</a></li>
+                    <li><a href="E-sport.html" target="_blank">E-sport</a></li>
+                    <li><a href="elozmenyek.html" >Előzmények</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container" style="max-width: 900px; padding-top: 40px; padding-bottom: 40px; line-height: 1.7;">
+            <h1 style="margin-bottom: 40px;">Counter-Strike fejlődése: 1.6 → CS:GO → CS2</h1>
+
+            <section style="margin-bottom: 60px;">
+                <h2 style="margin-bottom: 20px;">Counter-Strike 1.6</h2>
+                <img src="../img/elozmenyek hasonlitasa/cs1.6.jpg" alt="CS 1.6" style="width: 100%; height: auto; border-radius: 10px; margin-bottom: 25px;">
+                <p>
+                    A Counter-Strike 1.6 a 2000-es évek egyik legmeghatározóbb többjátékos FPS-játéka volt. 
+                    A Half-Life egyik modjaként indult, ám népszerűsége olyan gyorsan nőtt, hogy hamar önálló játékká vált.
+                    A 2003-ban kiadott 1.6 lett az a verzió, amely világszerte játéktermekben, LAN-okon és e-sport
+                    versenyeken is etalonná vált.
+                </p>
+            </section>
+
+            <section style="margin-bottom: 60px;">
+                <h2 style="margin-bottom: 20px;">Counter-Strike: Global Offensive (CS:GO)</h2>
+                <img src="../img/elozmenyek hasonlitasa/csgo.avif" alt="CSGO" style="width: 100%; height: auto; border-radius: 10px; margin-bottom: 25px;">
+                <p>
+                    A CS:GO 2012-ben jelent meg azzal a céllal, hogy modernizálja az 1.6-ra épülő játékélményt. 
+                    A grafikát teljesen új motorra, a Source Engine-re helyezték, amely lehetővé tette a részletesebb 
+                    pályákat, élethűbb animációkat és új vizuális effekteket.
+                </p>
+            </section>
+
+            <section style="margin-bottom: 60px;">
+                <h2 style="margin-bottom: 20px;">Counter-Strike 2 (CS2)</h2>
+                <img src="../img/elozmenyek hasonlitasa/cs2.jpg" alt="CS2" style="width: 100%; height: auto; border-radius: 10px; margin-bottom: 25px;">
+                <p>
+                    A Counter-Strike 2 2023-ban jelent meg, és a Source 2 motorra építve a sorozat eddigi 
+                    legnagyobb technikai ugrását hozta el. A fejlesztők célja nem egy teljesen új játék volt,
+                    hanem a CS:GO új generációs továbbfejlesztése.
+                </p>
+            </section>
+
+            <section>
+                <h2 style="margin-bottom: 20px;">Összefoglaló: Miért volt szükség változtatásokra?</h2>
+                <table class="cs-table">
+                    <tr>
+                        <th>1.6</th>
+                        <th>→</th>
+                        <th>CS:GO</th>
+                        <th>→</th>
+                        <th>CS2</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>Alapok lefektetése</li>
+                                <li>Klasszikus pályák</li>
+                                <li>Pontos fegyvermechanikák</li>
+                            </ul>
+                        </td>
+                        <td class="reason">
+                            Modernizálás igénye
+                            <br>Új grafika és motor
+                            <br>Matchmaking, rangok
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Modern grafika</li>
+                                <li>Ranked + matchmaking</li>
+                                <li>Skinek és gazdaság</li>
+                                <li>E-sport ugrás</li>
+                            </ul>
+                        </td>
+                        <td class="reason">
+                            Technikai generációváltás
+                            <br>Source 2 motor
+                            <br>Új fizika és hitreg
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Source 2 motor</li>
+                                <li>Dinamikus füstök</li>
+                                <li>Jobb fizika</li>
+                                <li>Új generációs vizuál</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
