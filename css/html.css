@@ -1,17 +1,74 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  background: radial-gradient(circle at top, #1f2937 0, #020617 55%);
-  color: #f3f4f6;
+    margin: 0;
+    background: linear-gradient(135deg, #0a0f1f, #122346, #0a0f1f);
+    color: #e5e7eb;
+    font-size: large;
+    font-family: 'Inter', sans-serif;
+}
+
+
+p:first-child {
+    max-width: 1300px;
+    margin-right: 0;
+    margin-left: 100px;
+    margin-top: 50px;
+    text-align: justify;
+    line-height: 1.6;
+    color: #cbd5e1;
+    letter-spacing: 0.01em;
+    font-size: 0.5cm;
+}
+
+
+#logo {
+    display:block;
+    max-width: 700px;
+    height: auto;
+    margin: 20px auto;
+}
+
+
+p {
+    margin: 30px 100px;
+    text-align: justify;
+    line-height: 1.6;
+    color: #cbd5e1;
+    letter-spacing: 0.01em;
+    font-size: 0.5cm;
+}
+
+
+.kepbekezdes {
+    display: flex;
+    align-items: flex-start;
+    margin: 50px 100px;
+    max-width: 1300px;
+}
+
+
+.kepbekezdes img {
+    width: 400px; height: 400px;
+    height: 400;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+    border: 1px, rgb(14, 203, 209), double; 
+}
+
+.kepbekezdes p{
+    padding: 50px 50px;
+    
 }
 
 /*menü*/
 .header {
-    position: relative;
-    background-color: rgba(58, 130, 198, 0.35);
-    height: 58px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.45);
+    height: 75px;
     background-position: center center;
+
 }
 
 #fomenu ul {
@@ -29,14 +86,14 @@ body {
 }
 
 #fomenu li:not(:last-child)::after {
-  content: "";
-  position: absolute;
-  right: 0;
-  top: 25%;          
-  height: 50%;       
-  width: 2.5px;        
-  background-color: #fff; 
-  opacity: 0.6;      
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 25%;
+    height: 50%;
+    width: 2.5px;
+    background-color: #fff;
+    opacity: 0.6;
 }
 
 .menu a {
@@ -46,7 +103,7 @@ body {
     text-transform: uppercase;
     letter-spacing: .12em;
     font-weight: 500;
-    font-size: clamp(12px, 1.4vw, 18px);
+    font-size: clamp(19px, 1.8vw, 24px);
     color: white;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
     padding: 2px 0;
