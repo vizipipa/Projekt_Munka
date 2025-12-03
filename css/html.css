@@ -21,7 +21,7 @@ p:first-child {
 
 
 #logo {
-    display:block;
+    display: block;
     max-width: 700px;
     height: auto;
     margin: 20px auto;
@@ -47,17 +47,18 @@ p {
 
 
 .kepbekezdes img {
-    width: 400px; height: 400px;
+    width: 400px;
+    height: 400px;
     height: 400;
     object-fit: cover;
     border-radius: 8px;
     flex-shrink: 0;
-    border: 1px, rgb(14, 203, 209), double; 
+    border: 1px, rgb(14, 203, 209), double;
 }
 
-.kepbekezdes p{
+.kepbekezdes p {
     padding: 50px 50px;
-    
+
 }
 
 /*menü*/
