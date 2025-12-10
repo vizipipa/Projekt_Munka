@@ -1,34 +1,27 @@
- body {
+body {
     margin: 0;
     background: linear-gradient(135deg, #0a0f1f, #122346, #0a0f1f);
     color: #e5e7eb;
     font-size: large;
 }
- /*menü*/
+
 .header {
     position: sticky;
     top: 0;
     z-index: 999;
     background-color: rgba(0, 0, 0, 0.45);
     height: 75px;
-    background-position: center center;
-
 }
 
 #fomenu ul {
     text-align: center;
-    margin: auto;
-    padding: auto;
 }
-
 #fomenu li {
     display: inline-block;
-    position: relative;
     list-style: none;
-    height: 100%;
     padding: 0.8em 1.6em;
+    position: relative;
 }
-
 #fomenu li:not(:last-child)::after {
     content: "";
     position: absolute;
@@ -39,24 +32,62 @@
     background-color: #fff;
     opacity: 0.6;
 }
-
 .menu a {
-    position: relative;
-    display: inline-block;
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: .12em;
-    font-weight: 500;
     font-size: clamp(19px, 1.8vw, 24px);
-    color: white;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
-    padding: 2px 0;
-    transition: color .2s ease;
 }
-
 .menu a:hover {
     color: rgb(61, 148, 186);
-    text-decoration: underline;
 }
 
-/* menü */
+.main-content {
+    max-width: 900px;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.06);
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    backdrop-filter: blur(3px);
+}
+
+.cs-img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.5);
+}
+
+
+.cs-table {
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.cs-table th,
+.cs-table td {
+    background-color: rgba(255, 255, 255, 0.18) !important;
+    border-color: rgba(255, 255, 255, 0.25) !important;
+    color: #000 !important;
+    font-weight: 600;
+}
+
+.cs-table th {
+    background-color: rgba(255, 255, 255, 0.35) !important;
+    font-size: 19px;
+}
+
+.cs-table ul {
+    padding-left: 20px;
+}
+
+.reason {
+    color: #007bff !important;
+    font-weight: 900;
+    font-size: 18px;
+}
