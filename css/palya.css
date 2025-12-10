@@ -43,13 +43,9 @@ h2 {
 
 
 .palyaresz {
-    display: flex;
-    align-items: flex-start;
-    gap: 24px;
+   
     max-width: 1300px;
-    margin-left: 0;
     margin: 40px auto;
-
 }
 
 .palyaresz:nth-child(even) {
@@ -59,12 +55,11 @@ h2 {
 
 .nagykep {
     margin-top: 70px;
-    width: 600px;
+    width: 100%;           
     height: auto;
     object-fit: cover;
     border-radius: 8px;
-    flex-shrink: 0;
-    border: 2px, rgb(14, 203, 209), double;
+    border: 2px double rgb(14, 203, 209);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
     transition: transform .3s ease, filter .3s ease;
 }
@@ -75,7 +70,7 @@ h2 {
 }
 
 .palya-szoveg {
-    flex: 1;
+    
     text-align: justify;
 }
 
