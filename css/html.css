@@ -7,59 +7,88 @@ body {
 }
 
 
-p:first-child {
-    max-width: 1300px;
-    margin-right: 0;
-    margin-left: 100px;
-    margin-top: 50px;
+.fo-tartalom {
+    text-align: center; 
+}
+.bevezeto-bekezdes {
+    max-width: 1100px;
+    margin: 20px auto 40px auto;
+    text-align: justify;         
+    line-height: 1.6;
+    color: #cbd5e1;
+    letter-spacing: 0.01em;
+    font-size: clamp(1.05rem, 0.6vw + 1rem, 1.25rem);
+}
+
+
+.szoveg-bekezdes{
+    max-width: 1100px;
+    margin: 20px auto;
     text-align: justify;
     line-height: 1.6;
     color: #cbd5e1;
     letter-spacing: 0.01em;
-    font-size: 0.5cm;
+    font-size: clamp(1.05rem, 0.6vw + 1rem, 1.25rem);
+}
+#vege {
+     max-width: 1100px;
+    margin: 20px auto 40px auto;
+    text-align: justify;         
+    line-height: 1.6;
+    color: #cbd5e1;
+    letter-spacing: 0.01em;
+    font-size: clamp(1.05rem, 0.6vw + 1rem, 1.25rem);
+}
+h1, h2 {
+    text-transform: uppercase;
+    font-style: italic;    
 }
 
 
-#logo {
-    display:block;
+
+#borito-kep,
+.borito-kep {
+    display: block;
     max-width: 700px;
+    width: 100%;
     height: auto;
     margin: 20px auto;
 }
 
-
-p {
-    margin: 30px 100px;
-    text-align: justify;
-    line-height: 1.6;
-    color: #cbd5e1;
-    letter-spacing: 0.01em;
-    font-size: 0.5cm;
+.kepes-bekezdes {
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
-
-.kepbekezdes {
-    display: flex;
-    align-items: flex-start;
-    margin: 50px 100px;
-    max-width: 1300px;
-}
-
-
-.kepbekezdes img {
-    width: 400px;
-    height: 400px;
-    height: 400;
+.kepes-bekezdes-kep {
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 8px;
-    flex-shrink: 0;
-    border: 1px, rgb(14, 203, 209), double;
+    border: 2px double rgb(14, 203, 209);
+    display: block;
+}
+#sajat {
+    margin-left: 100px;
 }
 
-.kepbekezdes p {
-    padding: 50px 50px;
-
+.szoveg-bekezdes {
+    margin: 15px 0px;
+    text-align: justify;
 }
+#utolso {
+    margin: 40px 75px;
+    max-width: 1000px;
+   
+}
+
+
+
+.kepes-bekezdes-kep {
+    aspect-ratio: 4 / 3;
+}
+
 
 /*menü*/
 .header {
@@ -116,4 +145,3 @@ p {
     text-decoration: underline;
 }
 
-/* menü */
